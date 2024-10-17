@@ -44,5 +44,8 @@
     >div{
         padding-top: 100px;
         height: 85vh;
+        p:nth-of-type(1){
+            font-size: 50px;
+        }
     }
 }
