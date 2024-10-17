@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: roboto-condensed-bold;
+  src: url(../fonts/Roboto-Condensed/RobotoCondensed-Bold.ttf);
+}
+body {
+  font-family: roboto;
+}
+
+#header {
+  padding: 0px 10%;
+  background-image: url(../img/banner_bg.jpg);
+  color: #FFFFFF;
+}
+#header nav {
+  position: fixed;
+  width: 80%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header nav h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: roboto-condensed-bold;
+}
+#header nav h1 span {
+  font-size: 50px;
+  color: #F5C45D;
+}
+#header nav div span {
+  display: none;
+}
+#header nav div ul {
+  display: flex;
+}
+#header nav div ul li {
+  padding-left: 60px;
+}
+#header nav div ul li a {
+  color: #FFFFFF;
+  transition: 0.2s;
+}
+#header nav div ul li a:hover {
+  color: #F5C45D;
+}
+#header > div {
+  padding-top: 100px;
+  height: 85vh;
+}
+
+/*# sourceMappingURL=style.css.map */
