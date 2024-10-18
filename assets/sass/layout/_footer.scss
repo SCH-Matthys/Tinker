@@ -94,10 +94,8 @@
                     align-items: center;
                     border-radius: 50%;
                 }
-                div:nth-of-type(4){
-                    transform: rotate(45deg);
-                }
                 a{
+                    transform: rotate(45deg);
                     color: var.$color-grey-bg;
                     font-size: 24px;
                     transition: 0.2s;

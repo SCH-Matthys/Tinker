@@ -546,10 +546,8 @@ body {
   align-items: center;
   border-radius: 50%;
 }
-#footer > div:nth-of-type(4) ul li div:nth-of-type(4) {
-  transform: rotate(45deg);
-}
 #footer > div:nth-of-type(4) ul li a {
+  transform: rotate(45deg);
   color: #373B3C;
   font-size: 24px;
   transition: 0.2s;
