@@ -568,8 +568,23 @@ body {
     width: 380px;
     height: 250px;
   }
+  #s-gallery > div:nth-of-type(1) {
+    padding: 0px 0px 0px 100px;
+  }
   #s-blog > div:nth-of-type(1) {
     padding: 0px 0px 0px 100px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  #s-reading {
+    flex-wrap: wrap;
+  }
+  #s-reading article {
+    width: 40%;
+    margin-bottom: 50px;
+  }
+  #s-blog > div:nth-of-type(2) {
+    width: 50%;
   }
 }
 
