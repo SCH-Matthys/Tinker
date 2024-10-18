@@ -1,0 +1,47 @@
+@use "../../abstract/variables" as var;
+
+#s-testimony{
+    background-color: var.$color-yellow;
+    padding: 150px 0px;
+    article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: var.$color-white;
+        div{
+            background-color: var.$color-white;
+            width: 40%;
+            border-radius: 8px;
+            p{
+                font-size: 24px;
+                font-style: italic;
+                font-weight: lighter;
+                text-align: center;
+                color: var.$color-grey;
+                padding: 64px;
+            }
+        }
+        h2{
+            padding-top: 32px;
+        }
+        >p{
+            padding-top: 8px;
+        }
+        ul{
+            padding-top: 32px;
+            display: flex;
+            li{
+                padding: 8px;
+                a{
+                    color: var.$color-white;
+                    transition: 0.2s;
+                    font-size: 12px;
+                    &:hover{
+                        color: #a0a0a0;
+                    }
+                }
+            }
+        }
+    }
+}

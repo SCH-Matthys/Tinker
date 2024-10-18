@@ -4,3 +4,10 @@
 @use "./components/buttons";
 
 @use "./layout/header";
+@use "./layout/main/s-reading";
+@use "./layout/main/s-gallery";
+@use "./layout/main/s-testimony";
+@use "./layout/main/s-blog";
+@use "./layout/main/s-contact";
+@use "./layout/main/s-iframe";
+@use "./layout/footer";

@@ -1,0 +1,111 @@
+@use "../abstract/variables" as var;
+@use "../base/typography";
+
+#footer{
+    background-color: var.$color-grey-bg;
+    color: var.$color-white;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >div{
+        padding: 16px 50px;
+        height: 150px;
+    }
+    >div:nth-of-type(1){
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        h2{
+            text-transform: uppercase;
+            font-size: 40px;
+            font-family: roboto-condensed-bold;
+            span{
+                font-size: 50px;
+                color: var.$color-yellow;
+            }
+        }
+        p{
+            span{
+                color: var.$color-yellow;
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+        }
+    }
+    >div:nth-of-type(2){
+        h2{
+            font-size: 20px;
+            text-transform: uppercase;
+            padding-bottom: 50px;
+            letter-spacing: 1px;
+        }
+        div{
+            display: flex;
+            width: 350px;
+            p{
+                font-weight: bold;
+                width: 60%;
+                letter-spacing: 1px;
+                line-height: 30px;
+            }
+            >p:nth-of-type(1){
+                border-right: solid 1px var.$color-grey;
+                padding-right: 25px;
+            }
+            >p:nth-of-type(2){
+                padding-left: 25px;
+            }
+        }
+    }
+    >div:nth-of-type(3){
+        h2{
+            font-size: 20px;
+            text-transform: uppercase;
+            padding-bottom: 50px;
+            letter-spacing: 1px;
+        }
+        p{
+            line-height: 30px;
+            span{
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+        }
+    }
+    >div:nth-of-type(4){
+        h2{
+            font-size: 20px;
+            text-transform: uppercase;
+            padding-bottom: 50px;
+            letter-spacing: 1px;
+        }
+        ul{
+            display: flex;
+            li{
+                padding-right: 8px;
+                div{
+                    width: 40px;
+                    height: 40px;
+                    background-color: var.$color-white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                }
+                div:nth-of-type(4){
+                    transform: rotate(45deg);
+                }
+                a{
+                    color: var.$color-grey-bg;
+                    font-size: 24px;
+                    transition: 0.2s;
+                    &:hover{
+                        color: var.$color-yellow;
+                    }
+                }
+            }
+        }
+    }
+}

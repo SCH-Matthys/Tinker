@@ -1,0 +1,15 @@
+@use "./variables" as var;
+@use "../base/typography";
+
+@mixin button($text-color:black, $bg-color: var.$color-white){
+    text-transform: uppercase;
+    padding: 16px 24px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bolder;
+    display: inline-block;
+    white-space: nowrap;
+    color: $text-color;
+    background-color: $bg-color;
+    transition: 0.2s;
+}

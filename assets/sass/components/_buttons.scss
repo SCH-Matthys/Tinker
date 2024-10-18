@@ -1,0 +1,14 @@
+@use "../abstract/variables" as var;
+@use "../abstract/mixins" as mix;
+
+.btn{
+    @include mix.button;
+}
+
+.btn-rounded{
+    border-radius: 50px;
+}
+
+.btn-blue{
+    @include mix.button(var.$color-white, var.$color-blue);
+}
